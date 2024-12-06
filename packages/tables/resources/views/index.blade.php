@@ -643,7 +643,7 @@
                                                 :actions="$actions"
                                                 :alignment="(! $contentGrid) ? 'start md:end' : Alignment::Start"
                                                 :record="$record"
-                                                wrap="-sm"
+                                                wrap
                                                 :class="$recordActionsClasses"
                                             />
                                         @endif
